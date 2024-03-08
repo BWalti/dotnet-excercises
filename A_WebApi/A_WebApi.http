@@ -1,0 +1,26 @@
+@A_WebApi_HostAddress = http://localhost:5258
+
+GET {{A_WebApi_HostAddress}}/calc/
+Accept: application/json
+
+###
+
+POST {{A_WebApi_HostAddress}}/calc/add/2
+Accept: application/json
+
+###
+
+POST {{A_WebApi_HostAddress}}/calc/add/3
+Accept: application/json
+
+###
+
+POST {{A_WebApi_HostAddress}}/calc/multiply/2
+Accept: application/json
+
+###
+
+POST {{A_WebApi_HostAddress}}/calc/divide/3
+Accept: application/json
+
+###
